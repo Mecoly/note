@@ -6,6 +6,8 @@
 
 ## 机器学习
 
+http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html
+
 1. 机器学习就是自动找函数
 
 语音识别（Speech Recognition）： f(语音)="文字意思"
