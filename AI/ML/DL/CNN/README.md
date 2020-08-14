@@ -2,7 +2,7 @@
 
 卷积神经网络:CNN(Convolutional Neural Networks)简称ConvNets
 
-[引入](#Why CNN for image)
+[引入](#Why)
 
 影像处理
 
