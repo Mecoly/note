@@ -8,7 +8,7 @@
 
 [卷积层(Convolution)](#Convolution)
 
-[最大池化(Max Pooling)](#Max Pooling)
+[最大池化(Max Pooling)](#Max)
 
 [](Convolution)
 
