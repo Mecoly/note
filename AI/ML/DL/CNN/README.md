@@ -2,13 +2,13 @@
 
 卷积神经网络:CNN(Convolutional Neural Networks)简称ConvNets
 
-[引入](#Why)
+[引入](#Why-CNN-for-image)
 
-[CNN架构](#The)
+[CNN架构](#The-whole-CNN)
 
 [卷积层(Convolution)](#Convolution)
 
-[最大池化(Max Pooling)](#Max)
+[最大池化(Max Pooling)](#Max-Pooling)
 
 [](Convolution)
 
