@@ -6,6 +6,10 @@
 
 [CNN架构](#The)
 
+[卷积层(Convolution)](#Convolution)
+
+[最大池化(Max Pooling)](#Max Pooling)
+
 [](Convolution)
 
 影像处理
