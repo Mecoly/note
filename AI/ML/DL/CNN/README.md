@@ -14,6 +14,7 @@
 
 * [全连接神经网络(Fully Connected Feedforward Network)](#Fully-Connected-Feedforward-Network)
 
+[应用](#Application)
 
 影像处理
 
@@ -49,4 +50,20 @@ Filter(卷积核/滤波器)：与输入数据矩阵比，长宽小，层数相�
 
 ### Fully Connected Feedforward Network
 
-##
+## Application
+
+### Playing Go
+
+无Max Pooling
+
+### Speech
+
+语谱图(Spectrogram)->内容
+
+![Speech](image/Speech.png)
+
+### Text
+
+文本(Text)->内容
+
+![Text](image/Text.png)
