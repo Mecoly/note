@@ -6,13 +6,13 @@
 
 [CNN架构](#The-whole-CNN)
 
-[卷积层(Convolution)](#Convolution)
+* [卷积层(Convolution)](#Convolution)
 
-[最大池化(Max Pooling)](#Max-Pooling)
+* [最大池化(Max Pooling)](#Max-Pooling)
 
-[拉平](#Flatten)
+* [拉平](#Flatten)
 
-[全连接神经网络(Fully Connected Feedforward Network)](#Fully-Connected-Feedforward-Network)
+* [全连接神经网络(Fully Connected Feedforward Network)](#Fully-Connected-Feedforward-Network)
 
 
 影像处理
