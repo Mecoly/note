@@ -10,7 +10,7 @@
 
 * [最大池化(Max Pooling)](#Max-Pooling)
 
-* [拉平](#Flatten)
+* [拉平(Flatten)](#Flatten)
 
 * [全连接神经网络(Fully Connected Feedforward Network)](#Fully-Connected-Feedforward-Network)
 
