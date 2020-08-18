@@ -6,11 +6,14 @@
 
 [CNN架构](#The-whole-CNN)
 
-[卷积层(Convolution)](#Convolution)
+  [卷积层(Convolution)](#Convolution)
 
-[最大池化(Max Pooling)](#Max-Pooling)
+  [最大池化(Max Pooling)](#Max-Pooling)
 
-[](Convolution)
+  [拉平](#Flatten)
+
+  [全连接神经网络(Fully Connected Feedforward Network)](#Fully-Connected-Feedforward-Network)
+
 
 影像处理
 
@@ -28,15 +31,22 @@
 
 卷积(Convolution)解决1. 2. 池化(Max Pooling)解决3.
 
-## Convolution
+### Convolution
 
 Filter(卷积核/滤波器)：与输入数据矩阵比，长宽小，层数相同的矩阵 参数通过训练得到 多个Filter
 
 计算过程：移动步长(stride)求内积，获得矩阵；跟每个卷积核运算得到多个矩阵，组成Feature Map
 
-## Max Pooling
+### Max Pooling
 
 将整个图片分割成不重叠的若干个同样大小的小块（pooling size），每个小块内只取最大的数字
 
 得到深度为Filter个数
 
+### Flatten
+
+参数拉成一维
+
+### Fully Connected Feedforward Network
+
+##
