@@ -8,12 +8,9 @@ My all notes
 1. 编程
 
   * 后端
-    - [c++](https://github.com/Mecoly/CPP)
+    - [c++](/CPP)
     - [Java](/Java)
-	- [Java](Java)
-	- [Java](https://github.com/Mecoly/note/Java)
-	
-    - [Python](https://github.com/Mecoly/Python)
+    - [Python](/Python)
   * 数据库
     - [Mysql](https://github.com/Mecoly/Mysql)
   * 前端
