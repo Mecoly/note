@@ -4,8 +4,8 @@
 * [组成](#组成)
   - [浏览器端](#浏览器端)
     * [HTML](HTML)
-    * [CSS](/CSS)
-    * [JavaScript](/JavaScript)
+    * [CSS](CSS)
+    * [JavaScript](JavaScript)
   - [服务器端](#服务器端)
   - [中间件](#中间件)
   
