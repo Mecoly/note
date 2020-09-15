@@ -3,7 +3,7 @@
 * [B/S架构](#B/S架构)
 * [组成](#组成)
   - [浏览器端](#浏览器端)
-    * [HTML](/HTML5)
+    * [HTML](/HTML)
     * [CSS](/CSS)
     * [JavaScript](/JavaScript)
   - [服务器端](#服务器端)
