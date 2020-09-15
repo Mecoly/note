@@ -13,10 +13,12 @@ My all notes
     - [Python](/Python)
   * 数据库
     - [Mysql](https://github.com/Mecoly/Mysql)
-  * 前端
-    - [HTML](/HTML)
-	- [CSS](/CSS)
-	- [JavaScript](/JavaScript)
+  * WEB
+    - [前端](/前端)
+      * [HTML](/HTML)
+	  * [CSS](/CSS)
+	  * [JavaScript](/JavaScript)
+    - [服务器](/服务器)
 	
 2. 工具
 
