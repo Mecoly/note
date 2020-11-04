@@ -42,6 +42,8 @@
 
 绑定密钥：将.ssh/id_rsa.pub中的内容复制到GitHub或Gitee账号
 
+查看设置：`git config --list`
+
 ### 下载
 选择保存位置：`cd /d/project`
 
