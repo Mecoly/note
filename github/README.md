@@ -2,13 +2,13 @@
 
 * [GitHub版本](#GitHub版本)
 * [GitHub使用](#GitHub使用)
-  -[repository](#repository)
-  -[md文件格式](#md文件格式)
+  - [repository](#repository)
+  - [md文件格式](#md文件格式)
 * [GitHub Desktop使用](#GitHub使用)
 * [Git使用](#Git使用)
-  -[获取SSH公钥](#获取SSH公钥)
-  -[下载](#下载)
-  -[上传](#上传)
+  - [获取SSH公钥](#获取SSH公钥)
+  - [下载](#下载)
+  - [上传](#上传)
 
 ## GitHub版本
 
