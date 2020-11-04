@@ -3,9 +3,11 @@ My all notes
 
 ## List
 
+1. 知识
+
 [人工智能](AI)
 
-1. 编程
+2. 编程
 
   * 后端
     - [c++](/CPP)
@@ -20,6 +22,8 @@ My all notes
       * [JavaScript](/WEB/JavaScript)
     - 服务器端
 	
-2. 工具
+3. 工具
 
-[notepad++](notepad++.md)
+* [github](/github)
+
+* [notepad++](/notepad++)
