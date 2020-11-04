@@ -26,6 +26,6 @@ My all notes
 
 * [CentOS](/CentOS)
 
-* [github](/github)
+* [GitHub](/GitHub)
 
 * [notepad++](/notepad++)
