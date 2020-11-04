@@ -28,11 +28,17 @@
 ## Git使用
 
 ### 获取SSH公钥
-设置邮箱：`git config --global user.email "email@example.com"`
+设置邮箱：
 
-设置name：`git config --global user.name "name"`
+`git config --global user.email "email@example.com"`
 
-生成密钥：`$ ssh-keygen -t rsa -C "email@example.com"`
+设置name：
+
+`git config --global user.name "name"`
+
+生成密钥：
+
+`$ ssh-keygen -t rsa -C "email@example.com"`
 
 绑定密钥：将.ssh/id_rsa.pub中的内容复制到GitHub或Gitee账号
 
