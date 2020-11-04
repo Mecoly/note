@@ -24,6 +24,8 @@ My all notes
 	
 3. 工具
 
+* [CentOS](/CentOS)
+
 * [github](/github)
 
 * [notepad++](/notepad++)
