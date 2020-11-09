@@ -38,7 +38,7 @@
 
 生成密钥：
 
-`$ ssh-keygen -t rsa -C "email@example.com"`
+`ssh-keygen -t rsa -C "email@example.com"`
 
 绑定密钥：将.ssh/id_rsa.pub中的内容复制到GitHub或Gitee账号
 
