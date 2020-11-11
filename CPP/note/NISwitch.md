@@ -1,8 +1,8 @@
-#NISwitch
+# NISwitch
 - [Functions](#Functions)
   * [niSwitch_init](#niSwitch_init)
-  * [niSwitch_initWithOptions](#niSwitch_initWithOptions)
-  * [niSwitch_initWithTopology](#niSwitch_initWithTopology)
+  * [niSwitch_InitWithOptions](#niSwitch_InitWithOptions)
+  * [niSwitch_InitWithTopology](#niSwitch_InitWithTopology)
   * [niSwitch_close](#niSwitch_close)
   * [ConfigurationFunctions](#ConfigurationFunctions)
   * [RouteFunctions](#RouteFunctions)
@@ -15,27 +15,57 @@
 ### niSwitch_init
 ViStatus niSwitch_init (ViRsrc resourceName, ViBoolean idQuery, ViBoolean resetDevice, ViSession* vi);
 
-用途：
+返回一个用于在之后所有仪器的驱动程序调用中标识开关模块的会话句柄。
+
+|参数|类型|描述|有效值|
+|:-:|:-:|:-:|:-:|
+|resourceName|ViRsrc|初始化开关模块的资源名||
+|idQuery|ViBoolean|**(忽略)** 是否询问安装哪个设备的开关模块|VI_TRUE VI_FALSE|
+|resetDevice|ViBoolean|是否重置设备|VI_TRUE VI_FALSE|
+|vi|ViSession|返回的会话句柄|&ViSessionName|
+
+### niSwitch_InitWithOptions
+ViStatus niSwitch_InitWithOptions (ViRsrc resourceName, ViBoolean idQuery, ViBoolean resetDevice, ViConstString optionString, ViSession* vi);
 
 返回一个用于在之后所有仪器的驱动程序调用中标识开关模块的会话句柄。
 
-niSwitch_init为resourceName参数中指定的交换机模块创建一个新的IVI仪器驱动程序会话。如果多个拓扑对该设备有效，则NI-SWITCH使用MAX中指定的默认拓扑。
+|参数|类型|描述|有效值|
+|:-:|:-:|:-:|:-:|
+|resourceName|ViRsrc|初始化开关模块的资源名||
+|idQuery|ViBoolean|**(忽略)** 是否询问安装哪个设备的开关模块|VI_TRUE VI_FALSE|
+|resetDevice|ViBoolean|是否重置设备|VI_TRUE VI_FALSE|
+|optionString|ViConstString|||
+|vi|ViSession|返回的会话句柄|&ViSessionName|
 
+### niSwitch_InitWithTopology
+ViStatus niSwitch_InitWithTopology (ViRsrc resourceName, ViConstString topology, ViBoolean idQuery, ViBoolean resetDevice, ViSession* vi);
 
+返回一个用于在之后所有仪器的驱动程序调用中标识开关模块的会话句柄,并设置拓扑结构。
 
-默认情况下，开关模块重置为已知状态。
+|参数|类型|描述|有效值|
+|:-:|:-:|:-:|:-:|
+|resourceName|ViRsrc|初始化开关模块的资源名||
+|topology|ViConstString|设备拓扑结构|niswitchTopologies.h定义|
+|idQuery|ViBoolean|**(忽略)** 是否询问安装哪个设备的开关模块|VI_TRUE VI_FALSE|
+|resetDevice|ViBoolean|是否重置设备|VI_TRUE VI_FALSE|
+|vi|ViSession|返回的会话句柄|&ViSessionName|
 
-
-
-如果另一个进程中存在与指定资源的会话，则返回错误。如果在同一进程中对具有相同拓扑的同一资源调用niSwitch_init两次，则返回相同的会话。
-
-### niSwitch_initWithOptions
-### niSwitch_initWithTopology
 ### niSwitch_close
+ViStatus niSwitch_close ( ViSession vi);
+
+关闭会话句柄
+
 ### ConfigurationFunctions
 ### RouteFunctions
 ### ScanFunctions
 ### RelayOperation
+#### niSwitch_GetRelayName
+
+#### niSwitch_GetRelayCount
+#### niSwitch_GetRelayPosition
+#### niSwitch_RelayControl
+
+
 ### Utility
 ### Values
 
