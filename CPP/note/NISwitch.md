@@ -8,6 +8,10 @@
   * [RouteFunctions](#RouteFunctions)
   * [ScanFunctions](#ScanFunctions)
   * [RelayOperation](#RelayOperation)
+    - [niSwitch_GetRelayName](#niSwitch_GetRelayName)
+    - [niSwitch_GetRelayCount](#niSwitch_GetRelayCount)
+    - [niSwitch_GetRelayPosition](#niSwitch_GetRelayPosition)
+    - [niSwitch_RelayControl](#niSwitch_RelayControl)
   * [Utility](#Utility)
   * [Values](#Values)
 - [Attributes](#Attributes)
@@ -60,10 +64,20 @@ ViStatus niSwitch_close ( ViSession vi);
 ### ScanFunctions
 ### RelayOperation
 #### niSwitch_GetRelayName
+ViStatus niSwitch_GetRelayName (ViSession vi, ViInt32 index, ViInt32 relayNameBufferSize, ViChar[] relayNameBuffer);
+
 
 #### niSwitch_GetRelayCount
+ViStatus niSwitch_GetRelayCount (ViSession vi, ViConstString relayName, ViInt32* relayCount);
+
+
 #### niSwitch_GetRelayPosition
+ViStatus niSwitch_GetRelayPosition (ViSession vi, ViConstString relayName, ViInt32* relayPosition);
+
+
 #### niSwitch_RelayControl
+ViStatus niSwitch_RelayControl (ViSession vi, ViConstString relayNames, ViInt32 relayAction);
+
 
 
 ### Utility
