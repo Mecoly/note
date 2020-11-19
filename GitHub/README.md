@@ -51,4 +51,16 @@
 
 更新：`git pull`
 ### 上传
+检查状态：`git status`
+
+根据提示更新
+
+添加：`git add <file>`
+
+删除：`git add <file>`
+
+取消：`git checkout -- <file>`
+
+提交：`git commit -m "commit message"`
+
 上传：`git push origin`
