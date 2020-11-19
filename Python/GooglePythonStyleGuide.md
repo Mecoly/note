@@ -44,6 +44,10 @@
 - [另外](#另外)
 
 ## 背景
+Google Python风格
+
+[Vim设置文件]()
+
 
 ## Python语言规则
 ### Lint
