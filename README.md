@@ -10,7 +10,8 @@ My all notes
 2. 编程
 
   * 后端
-    - [c++](/CPP)
+    - [C](/C)
+    - [C++](/CPP)
     - [Java](/Java)
     - [Python](/Python)
   * 数据库
