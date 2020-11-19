@@ -16,4 +16,4 @@ int main(){
 
 运行结果：
 
-[!CentOS7](/image/HelloWorld.png)
+![CentOS7](/image/HelloWorld.png)
