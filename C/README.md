@@ -5,6 +5,7 @@
 ## 编程风格
 Google C++编程规范 [文档](https://google.github.io/styleguide/cppguide.html)
 
+[中文](GoogleC++StyleGuide.md)
 ## HelloWorld
 
 ```C
