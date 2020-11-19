@@ -49,4 +49,6 @@
 
 下载：`git clone [url]`
 
+更新：`git pull`
 ### 上传
+上传：`git push origin`
