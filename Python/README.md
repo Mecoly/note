@@ -23,7 +23,7 @@
 print("Hello World!!!")
 ```
 
-[helloworld.py](helloworld.py)
+[helloworld.py](source/helloworld.py)
 
 ![helloworld.png](image/helloworld.png)
 
@@ -72,6 +72,7 @@ print("Hello World!!!")
 19. 类型注释
     
 ## 基础
+[test.py](source/test.py)
 ### 关键字
 命令行模式输入`help()`进入帮助，输入`keywords`查询关键字
 ### 基本数据类型
