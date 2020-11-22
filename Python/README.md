@@ -1,5 +1,5 @@
 # 我的python学习笔记
-[![image](note/image/python-logo.png)](https://www.python.org/)
+[![image](image/python-logo.png)](https://www.python.org/)
 
 [中文文档](https://docs.python.org/zh-cn/3/) [Google编程风格](https://google.github.io/styleguide/pyguide.html) [中文](GooglePythonStyleGuide.md)
 
@@ -20,7 +20,7 @@
 
 ## HelloWorld
 ```Python
-
+print("Hello World!!!")
 ```
 
 
