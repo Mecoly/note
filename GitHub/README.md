@@ -20,7 +20,7 @@
 ## GitHub使用
 
 ### repository
-
+.gitignore ：[github/gitignore](https://github.com/github/gitignore) [gitignore.io](https://www.gitignore.io/)
 ### md文件格式
 
 ## GitHub使用
