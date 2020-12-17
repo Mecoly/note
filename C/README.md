@@ -33,8 +33,11 @@ int main(){
 
 多行注释：`/*注释内容*/`
 ### 标识符
+字母或下划线`_`开始,后跟字母、下划线和数字。
 ### 关键字
+[Microsoft Docs](https://docs.microsoft.com/zh-cn/cpp/c-language/c-keywords)
 ### 基础数据类型
+
 ### 运算符
 ### 
 
