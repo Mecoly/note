@@ -37,6 +37,16 @@ int main(){
 ### 关键字
 [Microsoft Docs](https://docs.microsoft.com/zh-cn/cpp/c-language/c-keywords)
 ### 基础数据类型
+|type|CentOS7_64|Win10_64|range|
+|:-:|:-:|:-:|:-:|
+|char|1|1||
+|shorrt|2|2||
+|int|4|4||
+|long|8|4||
+|long long|8|8||
+|float|4|4||
+|double|8|8||
+|long double|16|8|
 
 ### 运算符
 ### 
