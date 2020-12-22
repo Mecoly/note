@@ -32,6 +32,19 @@ int main(){
   printf("*(p+1)=%d\n",*(p+1));
   printf("&p[1]=%p\n",&p[1]);
   printf("p[1]=%d\n",p[1]);
+  free(p);
+  printf("========================================\n");
+  p=(int*)calloc(10,sizeof(int));
+  printf("p=(int*)calloc(10,sizeof(int));\n");
+  printf("sizeof(p)=%d\n",sizeof(p));
+  printf("sizeof(*p)=%d\n",sizeof(*p));
+  printf("p=%p\n",p);
+  printf("*p=%d\n",*p);
+  printf("p+1=%p\n",p+1);
+  printf("*(p+1)=%d\n",*(p+1));
+  printf("&p[1]=%p\n",&p[1]);
+  printf("p[1]=%d\n",p[1]);
+  free(p);
   printf("========================================\n");
   return 0;
 }
