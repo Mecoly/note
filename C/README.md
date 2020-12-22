@@ -127,7 +127,7 @@ struct bit8{
 ### 内存管理
 |函数|作用|返回值|
 |:-:|:-:|:-:|
-|`void* calloc(int num, int size);`|动态地分配 num 个长度为 size 的连续内存空间，并将每一个字节都初始化为 0|成功返回分配的内存空间首地址，失败返回空指针|
+|`void* calloc(int num, int size);`|动态地分配 num 个长度为 size 的连续内存空间，并初始化为 0|成功返回分配的内存空间首地址，失败返回空指针|
 |`void free(void* address);`|释放动态分配的内存空间||
 |`void* malloc(int size);`|动态地分配 size 个字节长度的内存空间，不进行初始化|成功返回分配的内存空间首地址，失败返回空指针|
 |`void* realloc(void* address, int newsize);`|调整动态分配的内存空间大小为 size 个字节长度|成功返回分配的内存空间首地址并自动释放原内存空间，失败返回空指针并保留原内存空间|
