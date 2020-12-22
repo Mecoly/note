@@ -60,16 +60,16 @@ int main(){
     printf("p=(int*)malloc(10*sizeof(int));\n");
     printf("p=%p\n",p);
     printf("*p=%d\n",*p);
-    ptemp=(int*)malloc(10*sizeof(int));
+    ptemp=(int*)realloc(p,10*sizeof(int));
     if(ptemp){
-      printf("ptemp=(int*)realloc(10*sizeof(int));\n");
+      printf("ptemp=(int*)realloc(p,10*sizeof(int));\n");
       printf("p=%p\n",p);
       printf("ptemp=%p\n",ptemp);
       printf("*ptemp=%d\n",*ptemp);
       free(ptemp);
     }
     else{
-      printf("Error:malloc false\n");
+      printf("Error:realloc false\n");
       printf("p=%p\n",p);
       printf("*p=%d\n",*p);
       printf("ptemp=%p\n",ptemp);
