@@ -10,7 +10,7 @@ int main() {
   printf("sizeof(long long):\t%d\trange:%lld - %lld\n", sizeof(long long), LLONG_MIN, LLONG_MAX);
   printf("sizeof(float):\t\t%d\trange:%e - %e\n", sizeof(float), FLT_MIN, FLT_MAX);
   printf("sizeof(double):\t\t%d\trange:%e - %e\n", sizeof(double), DBL_MIN, DBL_MAX);
-  printf("sizeof(long double):\t%d\trange:%e - %e\n", sizeof(long double), LDBL_MIN, LDBL_MAX);
+  printf("sizeof(long double):\t%d\trange:%Le - %Le\n", sizeof(long double), LDBL_MIN, LDBL_MAX);
   printf("spring:\t%d\tsummer:\t%d\tautumn:\t%d\twinter:\t%d\n", spring, summer, autumn, winter);
   return 0;
 }
