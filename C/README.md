@@ -16,7 +16,12 @@
   * [函数](#函数)
   * [内存管理](#内存管理)
 - [标准库](#标准库)
+  * [stdlib.h](#stdlib_h)
   * [stdio.h](#stdio_h)
+  * [string.h](#string_h)
+  * [math.h](#math_h)
+  * [time.h](#time_h)
+
 ## 准备工作
 修改系统编码
 Win10：设置 -> 时间和语言 -> 日期、时间和区域格式设置 -> 其他日期、时间和区域设置 -> 区域 -> 管理 -> 更改系统区域设置 -> 勾选【使用Unicode UTF-8提供全球语言支持】 确认，重启
@@ -127,6 +132,8 @@ struct bit8{
 }
 ```
 ### 内存管理
+头文件：stdlib.h
+
 |函数|作用|返回值|
 |:-:|:-:|:-:|
 |`void* calloc(int count, int size);`|动态地分配 num 个长度为 size 的连续内存空间，并初始化为 0|成功返回分配的内存空间首地址，失败返回空指针|
@@ -137,5 +144,12 @@ struct bit8{
 代码：[More.c](source/More.c)
 
 ## 标准库
+### stdlib_h
 
 ### stdio_h
+
+### string_h
+
+### math_h
+
+### time_h
