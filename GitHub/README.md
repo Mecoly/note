@@ -23,7 +23,7 @@
 .gitignore ：[github/gitignore](https://github.com/github/gitignore) [gitignore.io](https://www.gitignore.io/)
 ### md文件格式
 |语法|格式||
-|:-:|-::|:-:|
+|:-:|:-:|:-:|
 |**粗体**|`**粗体**`||
 |*斜体*|`*斜体*`||
 |~~删除~~|`~~删除~~`||
