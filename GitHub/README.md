@@ -76,4 +76,4 @@
 
 提交：`git commit -m "commit message"`
 
-上传：`git push origin`
+上传：`git push`
