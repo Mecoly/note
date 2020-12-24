@@ -34,7 +34,7 @@
 |分割线|`***` `---`||
 |引用|`> 引用`||
 |[链接说明](https://m.tb.cn/h.46TGL8y)|`[链接说明](URL)`|`URL:#标题名`导航至标题|
-|![图片加载失败显示文字](https://github.com/fluidicon.png)|`![图片加载失败显示文字](URL)`||
+|![图片加载失败显示文字](https://github.com/fluidicon.png =100)|`![图片加载失败显示文字](URL)`||
 
 ## GitHub使用
 
