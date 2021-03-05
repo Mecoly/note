@@ -104,9 +104,9 @@ struct bit8{
 
 结果：
 
-![CentOS7_Struct_c](CentOS7_Struct_c.png)
+![CentOS7_Struct_c](image/CentOS7_Struct_c.png)
 
-![VS_Struct_c](VS_Struct_c.png)
+![VS_Struct_c](image/VS_Struct_c.png)
 ### 运算符
 算术运算符：`+ - * / % ++ --`
 
