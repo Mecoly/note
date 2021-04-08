@@ -154,6 +154,24 @@ struct bit8{
 
 ### string_h
 
+字符串(字符数组)操作
+
+|函数|作用|返回值|备注|
+|:-:|:-:|:-:|:-:|
+|`char* strcpy(char* destination,const char* source);`|复制字符串|目标字符串地址|
+|`char* strncpy(char* destination,const char* source,size_t num);`|复制指定长度字符串/字符数组|目标字符串地址|
+|`char* strcat (char* destination,const char* source);`|连接字符串|目标字符串地址|
+|`char* strncat (char* destination,const char* source,size_t num);`|连接指定长度字符串|目标字符串地址|
+|`int strncmp(const char* str1,const char* str2,size_t num);`|比较字符串|`0:相同 <0:str1<str2 >0:str1>str2`|
+|`int strncmp(const char* str1,const char* str2,size_t num);`|比较指定长度字符串|同上|
+|`char* strtok(char* str,const char* delimiters);`|分割字符串|每次分割出字符串地址|除第一次外,str使用参数NULL|
+|`char* strrchr(const char* str,int character);`|查找字符|出现的最后一个字符的地址|
+|`char* strstr(const char* str1,const char* str2);`|查找字符串|出现的最后一个字符的地址|
+|`size_t strlen(const char* str);`|获得字符串长度|字符串长度|
+|`char* strerror(int errnum);`|获得错误字符串|错误字符串地址|
+
+代码：[Stringh.c](source/Stringh.c)
+
 ### math_h
 
 ### time_h
