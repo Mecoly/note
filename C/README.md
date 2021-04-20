@@ -63,14 +63,14 @@ int main(){
 ### 基础数据类型
 |type|CentOS7_64|Win10_64|range|
 |:-:|:-:|:-:|:-:|
-|char|1|1||
-|shorrt|2|2||
-|int|4|4||
-|long|8|4||
-|long long|8|8||
-|float|4|4||
-|double|8|8||
-|long double|16|8|
+|char|1|1|CHAR_MIN ~ CHAR_MAX|
+|shorrt|2|2|SHRT_MIN ~ SHRT_MAX|
+|int|4|4|INT_MIN ~ INT_MAX|
+|long|8|4|LONG_MIN ~ LONG_MAX|
+|long long|8|8|LLONG_MIN ~ LLONG_MAX|
+|float|4|4|FLT_MIN ~ FLT_MAX|
+|double|8|8|DBL_MIN ~ DBL_MAX|
+|long double|16|8|LDBL_MIN ~ LDBL_MAX|
 
 源文件：[DataTypes.c](source/DataTypes.c)
 
