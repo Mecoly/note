@@ -20,10 +20,19 @@
 
 ## 准备工作
 
+Windows：解压jdk 添加环境变量
+
 ## 编程风格
+Google C++编程规范 [文档](https://google.github.io/styleguide/javaguide.html)
 
 ## HelloWorld
-
+```java
+public class HelloWorld{
+    public static void main(String[] args){
+        System.out.println("Hello World!");
+    }
+}
+```
 ## 基础
 ### 注释
 ### 标识符
